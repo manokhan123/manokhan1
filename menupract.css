@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.row{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+:root{
+     --main-color: #ee5057;
+    --bcolor: #ccc;
+    --color2:#1f3646;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu a{
+     text-decoration: none;    
+}
